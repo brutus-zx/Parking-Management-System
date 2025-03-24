@@ -2,6 +2,7 @@ Brutus Parking System
 Brutus Parking System is a simple parking management program written in C++. The system allows users to park different types of vehicles (Bikes, Cars, and Others) by selecting their vehicle type and making a payment. The program tracks the availability of parking spaces for each vehicle type and ensures that users are assigned a spot when available.
 
 Features
+
 Vehicle Selection: Users can select from three types of vehicles: Bike, Car, and Other.
 
 Space Availability: The system checks the availability of parking spaces and assigns a spot if space is available.
@@ -12,29 +13,8 @@ Repeatability: Users can choose to run the system again to park additional vehic
 
 Space Tracking: The system tracks the current number of parked vehicles for each type (Bike, Car, Other) and ensures no vehicle type exceeds the maximum parking capacity.
 
-Installation
-To run the Brutus Parking System on your machine, follow these steps:
-
-Clone the Repository or copy the code into a C++ file (e.g., brutus_parking_system.cpp).
-
-bash
-Copy
-git clone https://github.com/yourusername/brutus-parking-system.git
-Compile the Code:
-
-If you’re using a Unix-based system (Linux or macOS), open the terminal and navigate to the directory where your C++ file is located. Compile the code using g++:
-
-bash
-Copy
-g++ brutus_parking_system.cpp -o brutus_parking_system
-Run the Program:
-
-After compiling, run the program by executing the following command:
-
-bash
-Copy
-./brutus_parking_system
 How to Use
+
 Upon running the program, the system will ask you to select your vehicle type: Bike, Car, or Other.
 
 Based on your selection, it will check the availability of parking spaces. If space is available, the system will assign a spot and ask for the payment.
@@ -44,8 +24,6 @@ After the transaction, the program will show a confirmation message and ask if y
 If you want to park another vehicle, type 'y' to continue. If you're done, type 'n' to exit the program.
 
 Example Output
-pgsql
-Copy
 Thank you for considering Brutus Parking services!
 Select your Vehicle Type
 1. Bike
