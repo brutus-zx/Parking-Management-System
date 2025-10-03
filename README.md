@@ -1,4 +1,3 @@
-Brutus Parking System
 Brutus Parking System is a simple parking management program written in C++. The system allows users to park different types of vehicles (Bikes, Cars, and Others) by selecting their vehicle type and making a payment. The program tracks the availability of parking spaces for each vehicle type and ensures that users are assigned a spot when available.
 
 Features
